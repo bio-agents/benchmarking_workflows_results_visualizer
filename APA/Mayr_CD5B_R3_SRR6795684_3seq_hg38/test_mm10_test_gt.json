@@ -1,0 +1,97 @@
+[
+    {
+        "_id": "APAeval:2021-06-04_test.mm10_test.gt_Aggregation_Expression_non-matched-PAS_100nt_vs_Correlation_coefficient_100nt",
+        "challenge_ids": [
+            "test.mm10_test.gt"
+        ],
+        "datalink": {
+            "inline_data": {
+                "challenge_participants": [
+                    {
+                        "metric_x": 156.240540124,
+                        "metric_y": 0.7545830438086296,
+                        "participant_id": "agent1"
+                    }
+                ],
+                "visualization": {
+                    "type": "2D-plot",
+                    "x_axis": "Expression_non-matched-PAS_100nt",
+                    "y_axis": "Correlation_coefficient_100nt"
+                }
+            }
+        },
+        "type": "aggregation"
+    },
+    {
+        "_id": "APAeval:2021-06-04_test.mm10_test.gt_Aggregation_Expression_non-matched-PAS_50nt_vs_Correlation_coefficient_50nt",
+        "challenge_ids": [
+            "test.mm10_test.gt"
+        ],
+        "datalink": {
+            "inline_data": {
+                "challenge_participants": [
+                    {
+                        "metric_x": 156.240540124,
+                        "metric_y": 0.7545830438086296,
+                        "participant_id": "agent1"
+                    },
+                    {
+                        "metric_x": 160.240540124,
+                        "metric_y": 0.8545830438086296,
+                        "participant_id": "agent2"
+                    }
+                ],
+                "visualization": {
+                    "type": "2D-plot",
+                    "x_axis": "Expression_non-matched-PAS_50nt",
+                    "y_axis": "Correlation_coefficient_50nt"
+                }
+            }
+        },
+        "type": "aggregation"
+    },
+    {
+        "_id": "APAeval:2021-06-04_test.mm10_test.gt_Aggregation_Expression_non-matched-PAS_10nt_vs_Correlation_coefficient_10nt",
+        "challenge_ids": [
+            "test.mm10_test.gt"
+        ],
+        "datalink": {
+            "inline_data": {
+                "challenge_participants": [
+                    {
+                        "metric_x": 156.240540124,
+                        "metric_y": 0.7545830438086296,
+                        "participant_id": "agent1"
+                    }
+                ],
+                "visualization": {
+                    "type": "2D-plot",
+                    "x_axis": "Expression_non-matched-PAS_10nt",
+                    "y_axis": "Correlation_coefficient_10nt"
+                }
+            }
+        },
+        "type": "aggregation"
+    },
+    {
+        "_id": "APAeval:2021-06-04_test.mm10_test.gt_Aggregation_Correlation_coefficient_relative_100nt",
+        "challenge_ids": [
+            "test.mm10_test.gt"
+        ],
+        "datalink": {
+            "inline_data": {
+                "challenge_participants": [
+                    {
+                        "metric_value": 0.988002711953954,
+                        "participant_id": "agent1"
+                    }
+                ],
+                "visualization": {
+                    "metric": "Correlation_coefficient_relative_100nt",
+                    "type": "bar-plot"
+                }
+            }
+        },
+        "type": "aggregation"
+    }
+]

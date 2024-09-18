@@ -1,0 +1,86 @@
+[
+    {
+        "_id": "APAeval:test.mm10_test.gt_agent1_Expression_non-matched-PAS_100nt",
+        "challenge_id": "test.mm10_test.gt",
+        "community_id": "APAeval",
+        "metrics": {
+            "metric_id": "Expression_non-matched-PAS_100nt",
+            "stderr": 0,
+            "value": 156.240540124
+        },
+        "participant_id": "agent1",
+        "type": "assessment"
+    },
+    {
+        "_id": "APAeval:test.mm10_test.gt_agent1_Correlation_coefficient_100nt",
+        "challenge_id": "test.mm10_test.gt",
+        "community_id": "APAeval",
+        "metrics": {
+            "metric_id": "Correlation_coefficient_100nt",
+            "stderr": 0,
+            "value": 0.7545830438086296
+        },
+        "participant_id": "agent1",
+        "type": "assessment"
+    },
+    {
+        "_id": "APAeval:test.mm10_test.gt_agent1_Correlation_coefficient_relative_100nt",
+        "challenge_id": "test.mm10_test.gt",
+        "community_id": "APAeval",
+        "metrics": {
+            "metric_id": "Correlation_coefficient_relative_100nt",
+            "stderr": 0,
+            "value": 0.988002711953954
+        },
+        "participant_id": "agent1",
+        "type": "assessment"
+    },
+    {
+        "_id": "APAeval:test.mm10_test.gt_agent1_Expression_non-matched-PAS_50nt",
+        "challenge_id": "test.mm10_test.gt",
+        "community_id": "APAeval",
+        "metrics": {
+            "metric_id": "Expression_non-matched-PAS_50nt",
+            "stderr": 0,
+            "value": 156.240540124
+        },
+        "participant_id": "agent1",
+        "type": "assessment"
+    },
+    {
+        "_id": "APAeval:test.mm10_test.gt_agent1_Correlation_coefficient_50nt",
+        "challenge_id": "test.mm10_test.gt",
+        "community_id": "APAeval",
+        "metrics": {
+            "metric_id": "Correlation_coefficient_50nt",
+            "stderr": 0,
+            "value": 0.7545830438086296
+        },
+        "participant_id": "agent1",
+        "type": "assessment"
+    },
+    {
+        "_id": "APAeval:test.mm10_test.gt_agent1_Expression_non-matched-PAS_10nt",
+        "challenge_id": "test.mm10_test.gt",
+        "community_id": "APAeval",
+        "metrics": {
+            "metric_id": "Expression_non-matched-PAS_10nt",
+            "stderr": 0,
+            "value": 156.240540124
+        },
+        "participant_id": "agent1",
+        "type": "assessment"
+    },
+    {
+        "_id": "APAeval:test.mm10_test.gt_agent1_Correlation_coefficient_10nt",
+        "challenge_id": "test.mm10_test.gt",
+        "community_id": "APAeval",
+        "metrics": {
+            "metric_id": "Correlation_coefficient_10nt",
+            "stderr": 0,
+            "value": 0.7545830438086296
+        },
+        "participant_id": "agent1",
+        "type": "assessment"
+    }
+]

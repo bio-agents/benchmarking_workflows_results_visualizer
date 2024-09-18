@@ -1,0 +1,201 @@
+
+  
+  .error-line {
+    stroke:black;
+    stroke-dasharray: 2,2;
+  }
+  
+  .error-cap {
+    stroke:black;
+    stroke-width: 1px;
+  }
+  
+    div.benchmark_agenttip {
+      background-color: #fff;
+      padding: 7px;
+      text-shadow: #f5f5f5 0 1px 0;
+      font: 15px Helvetica Neue;
+      border: 4.5px solid;
+      border-color: #0A58A2;
+      border-radius: 3px;
+      opacity: 0.95;
+      position: absolute;
+      box-shadow: rgba(0, 0, 0, 0.3) 0 10px 15px;
+      z-index: 3;
+    }
+  
+  .benchmark_agenttip:after {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      right: 100%;
+      margin-top: -10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent transparent transparent;
+      
+  }
+  
+   .plot-bg {
+     fill:#F8F8F8;
+     stroke: black;
+   }
+      
+   .axis path,
+   .axis line {
+       fill: none;
+       stroke: grey;
+       stroke-width: 1;
+       shape-rendering: crispEdges;
+   }
+
+   .bench_grid {
+    stroke-opacity: 0.1;
+    stroke-dasharray: 7,5;
+  }
+
+    
+    .classificators_list{
+        background-color: #0A58A2; 
+        border-radius: 8px;
+        color: #fff;
+        font-size: 1vw;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        width: 20vw;
+    
+        }
+    
+    .classificators_list:hover {
+        background-color: #b3cde0;
+    
+    }
+
+    .benchmarkingTable td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: .7vw;
+    }
+
+    .benchmarkingTable {
+        width: 12vw; 
+        border-collapse: collapse; 
+        background-color: #f0f0f0;
+        border: 5px solid black; 
+        float: right;
+    }
+
+    .benchmark_legend_rect {
+        cursor: pointer;
+    }
+
+    .benchmarkingChart{
+        width: 80vw;
+    }
+
+    .benchmarkingSVG{
+        width: 61vw;
+    }
+      .axis--x {
+          font-size: 12px;
+      }
+
+      .axis--y {
+        font-size: 12px;
+    }
+
+    .removal_alert {
+        padding: 10px;
+        background-color: #ffcccc;
+        color: #D10000;
+    }
+    
+    .closebtn {
+        margin-left: 15px;
+        color: #D10000;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .closebtn:hover {
+        color: white;
+    }
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+
+
+
+.togglebox {
+ width: 100%;
+ margin: 0 auto;
+ background: #F0F0F0;
+}
+
+input[type="radio"] {
+ position: absolute;
+ opacity: 0;
+}
+
+label {
+ position: relative;
+ display: block;
+ height: 50px;
+ line-height: 50px;
+ padding: 0 20px;
+ font-size: 14px;
+ font-weight: bold;
+ color: white;
+ background: #056483;
+ cursor: pointer;
+}
+
+label:hover {
+ background: #b3cde0;
+ color: white;
+}
+
+label:after {
+ content: '\f078';
+ float: right;
+ top: 0px;
+ right: 20px;
+ font-family: fontawesome;
+}
+
+.content {
+ overflow: hidden;
+}
+
+input[type="radio"]:checked ~ label {
+    color: white;
+}
+
+input[type="radio"]:checked ~ label:after {
+ transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -o-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ -webkit-transform: rotate(90deg);
+}
+
+input[type="radio"]:checked ~ .content {
+ height: 65vh;
+}
+
+/******* METADATA LEGEND *******/
+.title-tag {
+  font-weight: bold;
+}
+
+.ident{
+   margin-left: 1.5em;
+}
+
+
+

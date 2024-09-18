@@ -1,0 +1,29 @@
+{
+  "name": "BenchmarkingCharts",
+  "version": "0.0.1",
+  "description": "BenchmarkingCharts",
+  "main": "app.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "popper.js": "^1.14.4"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.0",
+    "clusters": "0.0.4",
+    "css-loader": "^1.0.0",
+    "d3": "^5.5.0",
+    "d3-polygon": "^1.0.5",
+    "file-system": "^2.2.2",
+    "jquery": "^3.6.0",
+    "pareto-frontier": "^1.1.1",
+    "popper.js": "^1.14.4",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vicky Sundesha <me.vicky@hotmail.com>",
+  "license": "ISC"
+}
