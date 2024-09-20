@@ -1,26 +1,3 @@
-[
-    {
-        "_id": "TCGA:BLCA_TPR_my_agent_A",
-        "challenge_id": "BLCA",
-        "community_id": "TCGA",
-        "metrics": {
-            "metric_id": "TPR",
-            "stderr": 0,
-            "value": 0.0625
-        },
-        "participant_id": "my_agent",
-        "type": "assessment"
-    },
-    {
-        "_id": "TCGA:BLCA_precision_my_agent_A",
-        "challenge_id": "BLCA",
-        "community_id": "TCGA",
-        "metrics": {
-            "metric_id": "precision",
-            "stderr": 0,
-            "value": 0.23076923076923078
-        },
-        "participant_id": "my_agent",
-        "type": "assessment"
-    }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:101f65e3820d5aa97553bc56be535f13b1340c5aa221293d5cea1b009293fb14
+size 635

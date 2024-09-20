@@ -1,12 +1,3 @@
-[
-    {
-        "id": "Mayr_CD5B_R3_SRR6795684_3seq_hg38",
-        "participants": [
-            "QAPA",
-            "PAQR",
-            "APAtrap",
-            "test"
-        ],
-        "timestamp": "2022-05-31T12:14:45+00:00"
-    }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:255f77041357fccbc1a43f27fcb72d76098c08bdc4a1b434b6826ed46f87c6ac
+size 235
